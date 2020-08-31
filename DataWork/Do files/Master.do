@@ -28,7 +28,7 @@
 
    *Set this value to the user currently using this file
    **************************
-   global user  1												//*CHANGE HERE TO SET UP A NEW USER
+   global user  2												//*CHANGE HERE TO SET UP A NEW USER
    **************************
 
    * Root folder globals
@@ -48,8 +48,8 @@
    }
 
    if $user == 2 {
-       global projectfolder ""  							//fill the path of where you saved the folder "SP_H1N1 & School Closure" 
-	   global dofiles										//fill the path of where you saved the do files" 
+       global projectfolder "C:\Users\WB501238\Documents\GitHub\h1n1-school-closures-sp-2009\DataWork"  							//fill the path of where you saved the folder "SP_H1N1 & School Closure" 
+	   global dofiles		"C:\Users\WB501238\Documents\GitHub\h1n1-school-closures-sp-2009\DataWork\Do files"								//fill the path of where you saved the do files" 
    }
    
    * Project folder globals

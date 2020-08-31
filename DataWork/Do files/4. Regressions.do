@@ -214,7 +214,7 @@ We establish a code (sub) for each one of our dependent variables (in order to s
 							foreach quantile in 10 20 30 40 50 60 70 80 90 { 
 								cic continuous `subject'5 treated post_treat $controls2007 i.codmunic if year >= 2007 & year <= 2009  [aw = `weight'], did at(`quantile') vce(bootstrap, reps(1000))
 								matrix reg_results = r(table)
-								matrix results = results \ (3, `sub', reg_results[1, colsof(reg_results)-2], reg_results[5,colsof(reg_results)-2], A[6,colsof(reg_results)-2], `quantile')	 	
+								matrix results = results \ (3, `sub', reg_results[1, colsof(reg_results)-2], reg_results[5,colsof(reg_results)-2], reg_results[6,colsof(reg_results)-2], `quantile')	 	
 							}
 						}
 						

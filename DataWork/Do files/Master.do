@@ -47,10 +47,10 @@
 	   global fnde        		"$educationdata/Gasto_FNDE/DataWork/Datasets/3. Final" 
    }
 
-   if $user == 2 {
-       global projectfolder "C:\Users\WB501238\Documents\GitHub\h1n1-school-closures-sp-2009\DataWork"  							//fill the path of where you saved the folder "SP_H1N1 & School Closure" 
+   
+       global projectfolder "C:\Users\WB501238\Documents\GitHub\h1n1-school-closures-sp-2009"  							//fill the path of where you saved the folder "SP_H1N1 & School Closure" 
 	   global dofiles		"C:\Users\WB501238\Documents\GitHub\h1n1-school-closures-sp-2009\DataWork\Do files"								//fill the path of where you saved the do files" 
-   }
+   
    
    * Project folder globals
    * ---------------------
